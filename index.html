@@ -173,6 +173,7 @@ table.pricing td.comment{ color:var(--muted); font-size:13.5px; }
 
 .pkg-grid{ display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:28px; margin-bottom:28px; max-width:880px; }
 .pkg-grid-single{ grid-template-columns:1fr; max-width:420px; }
+.pkg-grid-3{ grid-template-columns:1fr 1fr 1fr; }
 .pkg-card{ background:var(--paper-raised); border-radius:16px; padding:26px; }
 .pkg-meta{ display:inline-flex; align-items:center; gap:7px; font-size:12.5px; font-weight:600; font-variation-settings:'wght' 600; letter-spacing:-0.05px; color:var(--ink); background:var(--paper); border:1px solid var(--line); border-radius:999px; padding:7px 14px; margin:2px 0 16px; }
 .pkg-meta svg{ width:13px; height:13px; stroke:var(--muted); stroke-width:2; fill:none; }
@@ -238,7 +239,7 @@ table.pricing td.comment{ color:var(--muted); font-size:13.5px; }
   .bottom-cta-bar{ display:flex; }
   body{ padding-bottom:74px; }
   .parties{ grid-template-columns:1fr; }
-  .pkg-grid{ grid-template-columns:1fr; }
+  .pkg-grid, .pkg-grid-3{ grid-template-columns:1fr; }
   .terms-grid{ grid-template-columns:1fr; }
   .stat-grid{ grid-template-columns:1fr 1fr; }
   .case-grid{ grid-template-columns:1fr; }
@@ -494,7 +495,7 @@ table.pricing td.comment{ color:var(--muted); font-size:13.5px; }
         </ul>
       </div>
 
-      <div class="pkg-grid" style="grid-template-columns:1fr 1fr 1fr;">
+      <div class="pkg-grid pkg-grid-3">
         <div class="pkg-card">
           <h4>Мобильная съёмка</h4>
           <div class="pkg-price">€1 400<span style="font-size:14px;font-weight:500;color:var(--muted);">/мес</span></div>
@@ -533,7 +534,7 @@ table.pricing td.comment{ color:var(--muted); font-size:13.5px; }
           <li>Без публикации</li>
         </ul>
       </div>
-      <div class="pkg-grid" style="grid-template-columns:1fr 1fr;">
+      <div class="pkg-grid">
         <div class="pkg-card">
           <h4>Мобильная съёмка</h4>
           <div class="pkg-price">€900</div>
@@ -577,7 +578,7 @@ table.pricing td.comment{ color:var(--muted); font-size:13.5px; }
         </ul>
       </div>
 
-      <div class="pkg-grid" style="grid-template-columns:1fr 1fr;">
+      <div class="pkg-grid">
         <div class="pkg-card">
           <h4>Таргет под&nbsp;ключ</h4>
           <div class="pkg-price">€900<span style="font-size:14px;font-weight:500;color:var(--muted);">/мес</span></div>
